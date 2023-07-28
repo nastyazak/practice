@@ -1,0 +1,676 @@
+html {
+	overflow-x: hidden;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	position: relative;
+	z-index: 9999;
+	margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.navigation {
+	background: #FFFFFF;
+	margin-left: auto;
+    margin-right: auto;
+	width: 100%;
+	padding: 2% 0 2%;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+}
+
+.logo {
+	padding-left: 4%;
+}
+
+.menu {
+	padding-right: 4%;
+}
+
+.menu_list {
+	display: none;
+}
+
+.menu:hover .menu_list {
+	display: block;
+	position: absolute;
+	width: 394px;
+	height: 835px;
+	left: 972px;
+	top: 0px;
+	border: 1px solid #FFFFFF;
+	background: #5A98D0;
+	border-radius: 50px 0px 0px 0px;
+	padding: 5% 5% 0;
+}
+
+.about_menu, .follow_menu, .about, .follow {
+	font-family: 'Gilroy Light';
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.05em;
+}
+
+.about_menu, .follow_menu {
+	margin-bottom: 10%;
+}
+
+.about_menu a, .follow_menu a, .about a, .follow a {
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+}
+
+.about_menu a {
+	margin-bottom: 4%;
+}
+
+.follow_menu a {
+	margin-bottom: 4%;
+}
+
+.head_menu, .head {
+	font-family: 'Gilroy Medium';
+	font-size: 20px;
+	line-height: 30px;
+	color: #FFFFFF;
+}
+
+.dropdown a:hover {
+	text-decoration: underline;
+}
+
+.first_screen {
+	width: 100%;
+	background: linear-gradient(0deg, rgba(152, 195, 232, 0.2) 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: 58% 42%;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.left {
+	margin: 25% 0 30%;
+}
+
+.right {
+	margin: 35% 0 30% -23%;
+}
+
+.title {
+	font-family: 'Galien';
+	font-size: 64px;
+	line-height: 74px;
+	letter-spacing: 0.04em;
+	color: #1F3F68;
+}
+
+.text {
+	font-family: 'Gilroy';
+	font-weight: Regular;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.05em;
+	color: #1F3F68;
+	opacity: 0.6;
+}
+
+#intro {
+	margin-bottom: 17%;
+	width: 85%;
+}
+
+.btn {
+	font-family: 'Gilroy';
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	text-decoration: none;
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
+	border-radius: 10px;
+}
+
+#button {
+	background: #5A98D0;
+	box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+	height: 56px;
+	padding: 15px 42px;
+}
+
+#button:hover {
+	background: #85bff2;
+	tansition: all .3s linear;
+	-webkit-transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-o-transition: all 0.3s ease;
+}
+
+.help {
+	display: flex;
+	justify-content: space-between;
+	margin: 15% auto;
+	width: 70%;
+}
+
+.subtitle {
+	font-family: 'Gilroy SemiBold';
+	font-size: 36px;
+	line-height: 46px;
+	letter-spacing: 0.05em;
+	color: #316099;
+	margin: 0;
+}
+
+#help_name {
+	width: 80%;
+	margin-bottom: 30%;
+}
+
+.cards {
+	background: #FFFFFF;
+	box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+	border-radius: 10px;
+	width: 380px;
+}
+
+#make {
+	margin-left: 10%;
+}
+
+#bring {
+	margin-bottom: 20%;	
+}
+
+#first {
+	padding: 48px 124px 0 74px;
+}
+
+#second {
+    margin-left: 60px;
+    margin-top: -5%;
+}
+
+#third {
+	padding: 49px 124px 0 100px;
+}
+
+.inscription {
+	padding: 20px 48px 48px;
+}
+
+.name {
+	font-family: 'Gilroy SemiBold';
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: 0.05em;
+	color: #1F3F68;
+	width: 110%;
+}
+
+.more {
+	font-family: 'Gilroy SemiBold';
+	font-size: 14px;
+	line-height: 30px;
+	letter-spacing: 0.05em;
+	color: #5A98D0;
+	text-decoration: none;
+}
+
+.redirect {
+	display: flex;
+	justify-content: space-between;
+	width: 45%
+}
+
+.redirect a:hover {
+	text-decoration: underline;
+}
+
+.arrow {
+	padding-top: 15%;
+}
+
+.show {
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+.project_info {
+	display: grid;
+	grid-template-columns: 30% 70%;
+	padding-bottom: 9%;
+}
+
+#project {
+	color: #1F3F68;
+	width: 90%;
+}
+
+#project_text {
+	margin: 0;
+	padding-left: 5%;
+	width: 90%;
+}
+
+.home {
+	width: 100%;
+	padding-bottom: 5%;
+}
+
+.pictures {
+	display: flex;
+	justify-content: space-between;
+}
+
+.home, .sparklite, .car {
+	position: relative;
+}
+
+.home_title, .sparklite_title, .car_title {
+	font-family: 'Gilroy';
+	font-size: 28px;
+	line-height: 46px;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+}
+
+.home_text, .sparklite_text, .car_text {
+	font-family: 'Gilroy';
+	font-size: 16px;
+	line-height: 46px;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+	opacity: 0.8;
+}
+
+.home_title {
+	position: absolute;
+	left: 710px;
+	top: 2510px;
+}
+
+.home_text {
+	position: absolute;
+	left: 810px;
+	top: 2570px;
+}
+
+.sparklite_title {
+	position: absolute;
+	padding-left: 30px;
+	top: 2930px;
+}
+
+.sparklite_text {
+	position: absolute;
+	padding-left: 30px;
+	top: 2990px;
+}
+
+.car_title {
+	position: absolute;
+	left: 685px;
+	top: 2930px;
+} 
+
+.car_text {
+	position: absolute;
+	left: 685px;
+	top: 2990px;
+}
+
+.bigfooter {
+	width: 100%;
+	background: #5A98D0;
+	border-radius: 200px 0px 0px 0px;
+}
+
+.with_table {
+	width: 70%;
+	margin: 10% auto;
+}
+
+.client_info {
+	display: grid;
+	grid-template-columns: 30% 70%;
+	padding-top: 10%;
+	color: #FFFFFF;
+}
+
+#client {
+	color: #FFFFFF;
+	width: 90%;
+}
+
+#client_text {
+	color: #FFFFFF;
+	margin: 0;
+	padding-left: 5%;
+	width: 90%;
+}
+
+table {
+	margin-top: 10%;
+	border-collapse: collapse;
+}
+
+td {
+	align: center;
+	font-family: 'Gilroy Medium';
+	font-size: 20px;
+	line-height: 46px;
+	letter-spacing: 0.02em;
+	padding: 35px;
+}
+
+td a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.cell {
+	text-align: center;
+}
+
+.cell:hover {
+	background: rgba(31,63,104,0.2);
+	text-align: center;
+}
+
+.footer {
+	background: #316099;
+	border-radius: 0px 200px 0px 0px;
+	width: 95%;
+}
+
+.with_button {
+	display: flex;
+	justify-content: space-between;
+	padding: 7% 16% 10%;
+	width: 70%;
+}
+
+.info_question {
+	width: 55%;
+}
+
+#question {
+	color: #FFFFFF;
+	margin-bottom: 5%;
+	width: 70%;
+}
+
+#text {
+	color: #FFFFFF;
+}
+
+#but {
+	background: #5A98D0;
+	margin-top: 10%;
+	padding: 10px 70px;
+	height: 30px;
+}
+
+#but:hover {
+	background: #85bff2;
+	tansition: all .3s linear;
+	-webkit-transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-o-transition: all 0.3s ease;
+}
+
+hr {
+	opacity: 0.4;
+	border: none;
+	background-color: #FFFFFF;
+	height: 1px;
+	width: 85%;
+	margin-left: 0;
+}
+
+.contact_info {
+	padding: 7% 16% 10%;
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.contacts {
+	width: 40%;
+	padding-top: 3%;
+}
+
+.company {
+	width: 70%;
+}
+
+.afrianska {
+	font-family: 'Gilroy Medium';
+	font-size: 28px;
+	line-height: 46px;
+	letter-spacing: 0.02em;
+	color: #FFFFFF;
+	float: right;
+}
+
+#A, #T, #E {
+	font-family: 'Gilroy Medium';
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+	display: flex;
+}
+
+.t {
+	margin-left: 5%;
+	font-family: 'Gilroy Light';
+}
+
+.block {
+	display: flex;
+	justify-content: space-between;
+	width: 45%;
+}
+
+.block a:hover {
+	text-decoration: underline;
+}
+
+.about a {
+	margin-top: 10%;
+	transition: 3s;
+}
+
+.follow a {
+	margin-top: 17%;
+}
+
+.head {
+	margin-bottom: 40px;
+}
+
+
+/*Responsive*/
+
+
+/* 768px - 1200px */
+@media screen and (max-width: 1200px) {
+	.illustration {
+		width: 280px;
+		margin-top: 20%;
+	}
+
+	.menu:hover .menu_list {
+		left: 500px;
+	}
+
+	.title {
+		font-size: 38px;
+	}
+
+	.text {
+		font-size: 15px;
+	}
+
+	.home_title, .sparklite_title, .car_title {
+		display: none;
+	}
+
+	.home_text, .sparklite_text, .car_text {
+		display: none;
+	}
+
+	.sparklite, .car {
+		width: 200px;
+	}
+
+	.contact_info {
+		padding: 7% 16% 10%;
+		width: 60%;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	.block, .contacts {
+		flex-direction: column;
+		flex-wrap: wrap;
+		width: 90%;
+	}
+}
+
+/* 320px - 768px */
+@media screen and (max-width: 992px) {
+	.wrapper {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	.left {
+		margin: 20% auto 5%;
+	}
+
+	.right {
+		margin: 20% 5%;
+	}
+
+	.menu:hover .menu_list {
+		left: 180px;
+	}
+
+	.title {
+		font-size: 36px;
+	}
+
+	.text {
+		font-size: 15px;
+	}
+
+	.illustration {
+		width: 200px;
+	}
+
+	.help {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		margin: 15% auto;
+		width: 70%;
+	}
+
+	#make {
+		margin-left: 0;
+	}
+
+	.cards {
+		margin-bottom: 20%;
+	}
+
+	.home_title, .sparklite_title, .car_title {
+		display: none;
+	}
+
+	.home_text, .sparklite_text, .car_text {
+		display: none;
+	}
+
+	.project_info {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		padding-bottom: 9%;
+		width: 100%;
+	}
+
+	#project_text {
+		padding: 5% 0 0;
+	}
+
+	.pictures {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	.sparklite, .car {
+		width: 100%;
+		margin-bottom: 5%;
+	}
+
+	.client_info {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+
+	#client_text {
+		padding: 5% 0 0;
+	}
+
+	td {
+		font-size: 15px;
+		padding: 10px;
+	}
+
+	.with_button {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		padding: 7% 16% 10%;
+	}
+
+	.info_question {
+		width: 100%;
+	}
+
+	.contact_info {
+		padding: 7% 16% 10%;
+		width: 60%;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	.block, .contacts {
+		flex-direction: column;
+		flex-wrap: wrap;
+		width: 90%;
+	}
+
+	.about, .follow {
+		margin-bottom: 20%;
+	}
+}

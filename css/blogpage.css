@@ -1,0 +1,585 @@
+html {
+	overflow-x: hidden;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	position: relative;
+	z-index: 9999;
+	margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.navigation {
+	background: #FFFFFF;
+	margin-left: auto;
+    margin-right: auto;
+	width: 100%;
+	padding: 2% 0 2%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	padding-left: 4%;
+}
+
+.menu {
+	padding-right: 4%;
+}
+
+.menu_list {
+	display: none;
+}
+
+.menu:hover .menu_list {
+	display: block;
+	position: absolute;
+	width: 394px;
+	height: 835px;
+	left: 972px;
+	top: 0px;
+	border: 1px solid #FFFFFF;
+	background: #5A98D0;
+	border-radius: 50px 0px 0px 0px;
+	padding: 5% 5% 0;
+}
+
+.about_menu, .follow_menu, .about, .follow {
+	font-family: 'Gilroy Light';
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.05em;
+}
+
+.about_menu, .follow_menu {
+	margin-bottom: 10%;
+}
+
+.about_menu a, .follow_menu a, .about a, .follow a {
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+}
+
+.about_menu a {
+	margin-bottom: 4%;
+}
+
+.follow_menu a {
+	margin-bottom: 4%;
+}
+
+.head_menu, .head {
+	font-family: 'Gilroy Medium';
+	font-size: 20px;
+	line-height: 30px;
+	color: #FFFFFF;
+}
+
+.dropdown a:hover {
+	text-decoration: underline;
+}
+
+
+
+.first_screen {
+	width: 100%;
+	background: url("../img/fon.png");
+}
+
+.content {
+	margin: 0 auto 0;
+	padding: 3% 0 3%;
+	width: 60%;
+}
+
+.title {
+	font-family: 'Gilroy Regular';
+	font-size: 44px;
+	line-height: 74px;
+	text-align: center;
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
+	margin: 0;
+}
+
+.main_text {
+	font-family: 'Gilroy Light';
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	letter-spacing: 0.04em;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+.search {
+	margin: 5% auto;
+	width: 70%;
+}
+
+.container {
+	padding: 18px 30px;
+	height: 36px;
+	background: #F4F4F4;
+	border-radius: 10px;
+}
+
+.loupe {
+	margin-right: 15px;
+}
+
+input::placeholder {
+	font-family: 'Gilroy Light';
+	font-size: 16px;
+	line-height: 19px;
+	color: #1F3F68;
+	opacity: 0.6;
+}
+
+
+
+.popular {
+	margin: 0 auto 5%;
+	width: 70%;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.name {
+	font-family: 'Gilroy SemiBold';
+	font-size: 20px;
+	line-height: 25px;
+	letter-spacing: 0.04em;
+	color: #356EAD;
+	opacity: 0.8;
+}
+
+.main {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 1%;
+}
+
+.subtitle_main {
+	font-family: 'Galien SemiBold';
+	font-size: 45px;
+	line-height: 58px;
+	letter-spacing: 0.04em;
+	color: #1F3F68;
+	margin: 0 0 10%;
+}
+
+.main .with_icon {
+	margin-top: 5%;
+	width: 70%;
+}
+
+.secondary {
+	display: flex;
+	justify-content: space-between;
+	width: 20%;
+}
+
+.sub {
+	font-family: 'Galien SemiBold';
+	font-size: 25px;
+	line-height: 38px;
+	letter-spacing: 0.04em;
+	color: #1F3F68;
+}
+
+.secondary .with_icon {
+	margin-top: 5%;
+	width: 85%;
+}
+
+.one, .two, .three {
+	margin: 5%;
+}
+
+.inscription {
+	font-family: 'Gilroy SemiBold';
+	font-size: 16px;
+	line-height: 20px;
+	text-align: right;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	color: #356EAD;
+	opacity: 0.8;
+	margin-top: 5%;
+}
+
+
+
+.all {
+	margin: 0 auto 9%;
+	width: 70%;
+}
+
+.card {
+	width: 855px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 2%;
+}
+
+.right {
+	margin-left: 2%;
+}
+
+.subtitle {
+	margin-top: 0;
+	margin-bottom: 2%;
+	font-family: 'Galien SemiBold';
+	font-size: 28px;
+	line-height: 38px;
+	letter-spacing: 0.04em;
+	color: #1F3F68;
+}
+
+.text {
+	margin-top: 0;
+	margin-bottom: 2%;
+	font-family: 'Gilroy';
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.samatha {
+	margin-bottom: 0;
+	font-family: 'Gilroy';
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.04em;
+	color: #1F3F68;
+}
+
+.time {
+	margin-top: 0;
+	font-family: 'Gilroy';
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.04em;
+	color: rgba(0, 0, 0, 0.4);
+}
+
+.with_icon {
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
+}
+
+.right_icon {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10%;
+}
+
+.icon_first {
+	margin-right: 70%;
+}
+
+.slider {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 5%;
+}
+
+.l, .r {
+	display: flex;
+	justify-content: space-between;
+}
+
+.post {
+	font-family: 'Gilroy SemiBold';
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 0.04em;
+	color: #356EAD;
+	text-decoration: none;
+}
+
+
+
+.footer {
+	background: #316099;
+	border-radius: 0px 200px 0px 0px;
+	width: 95%;
+}
+
+.with_button {
+	display: flex;
+	justify-content: space-between;
+	padding: 3% 16% 6%;
+	width: 70%;
+}
+
+.info_question {
+	width: 55%;
+}
+
+#question {
+	font-family: 'Gilroy SemiBold';
+	font-size: 36px;
+	line-height: 46px;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+	margin-bottom: 5%;
+	width: 70%;
+}
+
+#text {
+	color: #FFFFFF;
+	font-family: 'Gilroy Thin';
+}
+
+.btn {
+	font-family: 'Gilroy';
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	text-decoration: none;
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
+	border-radius: 10px;
+}
+
+#but {
+	background: #5A98D0;
+	margin-top: 10%;
+	padding: 10px 70px;
+	height: 30px;
+}
+
+#but:hover {
+	background: #85bff2;
+	tansition: all .3s linear;
+	-webkit-transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-o-transition: all 0.3s ease;
+}
+
+hr {
+	opacity: 0.4;
+	border: none;
+	background-color: #FFFFFF;
+	height: 1px;
+	width: 85%;
+	margin-left: 0;
+}
+
+.contact_info {
+	padding: 7% 16% 5%;
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.contacts {
+	width: 40%;
+	padding-top: 3%;
+}
+
+.company {
+	width: 70%;
+}
+
+.afrianska {
+	font-family: 'Gilroy Medium';
+	font-size: 28px;
+	line-height: 46px;
+	letter-spacing: 0.02em;
+	color: #FFFFFF;
+	float: right;
+}
+
+#A, #T, #E {
+	font-family: 'Gilroy Medium';
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+	display: flex;
+}
+
+.t {
+	margin-left: 5%;
+	font-family: 'Gilroy Light';
+}
+
+#ps {
+	font-family: 'Gilroy';
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+	opacity: 0.4;
+	margin-top: 20%;
+	width: 300px;
+}
+
+.block {
+	display: flex;
+	justify-content: space-between;
+	width: 45%;
+}
+
+.block a:hover {
+	text-decoration: underline;
+}
+
+.about a {
+	margin-top: 10%;
+	transition: 3s;
+}
+
+.follow a {
+	margin-top: 17%;
+}
+
+.head {
+	margin-bottom: 40px;
+}
+
+
+/* 768px - 1200px */
+@media screen and (max-width: 1200px) {
+	.menu:hover .menu_list {
+		left: 700px;
+	}
+
+	.title, .main_text {
+		padding: 0;
+		margin: 0;
+	}
+
+	.title {
+		font-size: 30px;
+	}
+
+	.main_text {
+		font-size: 10px;
+	}
+
+	.text {
+		font-size: 10px;
+	}
+
+	.subtitle_main, .sub {
+		font-size: 25px;
+	}
+
+	.right {
+		padding-top: 0;
+		margin-top: 0;
+	}
+
+	.all {
+		margin: 0 auto;
+		width: 70%;
+	}
+
+	.illustration {
+		width: 200px;
+	}
+
+	.main {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		width: 10%;
+	}
+
+	.secondary {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		width: 10%;
+	}
+
+	.contact_info {
+		padding: 7% 16% 10%;
+		width: 60%;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	.about, .follow {
+		margin-bottom: 20%;
+	}
+
+	.block, .contacts {
+		flex-direction: column;
+		flex-wrap: wrap;
+		width: 90%;
+	}
+}
+
+/* 320px - 768px */
+@media screen and (max-width: 992px) {
+	.menu:hover .menu_list {
+		left: 180px;
+	}
+
+	.title, .main_text {
+		padding: 0;
+		margin: 0;
+	}
+
+	.title {
+		font-size: 30px;
+	}
+
+	.main_text {
+		font-size: 10px;
+	}
+
+	.text {
+		font-size: 10px;
+	}
+
+	.subtitle_main, .sub {
+		font-size: 25px;
+	}
+
+	.illustration {
+		width: 200px;
+	}
+
+	.with_button {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		padding: 7% 16% 10%;
+	}
+
+	.info_question {
+		width: 100%;
+	}
+
+	.contact_info {
+		padding: 7% 16% 10%;
+		width: 60%;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	.block, .contacts {
+		flex-direction: column;
+		flex-wrap: wrap;
+		width: 90%;
+	}
+
+	.about, .follow {
+		margin-bottom: 20%;
+	}
+}
