@@ -7,4 +7,4 @@
 ## Запуск проекта
 1. Склонируйте репозиторий с помощью команды:
    git clone https://github.com/nastyazak/practice.git
-2. Откройте файл index.html в вашем веб-браузере.
+2. Откройте файл homepage.html, blogpage.html или contact.html в вашем веб-браузере.
